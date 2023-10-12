@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_weather_app_example_1697104169258-pr-trigger-input-set
+  identifier: Build_weather_app_example_1697104169258prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: weather
+  pipeline:
+    identifier: Build_weather_app_example_1697104169258
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
