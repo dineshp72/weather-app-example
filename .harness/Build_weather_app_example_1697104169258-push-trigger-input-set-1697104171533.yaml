@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_weather_app_example_1697104169258-push-trigger-input-set
+  identifier: Build_weather_app_example_1697104169258pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: weather
+  pipeline:
+    identifier: Build_weather_app_example_1697104169258
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
